@@ -4,7 +4,8 @@ log4j.rootCategory=INFO,A2,A3
 
 log4j.appender.A2=org.apache.log4j.DailyRollingFileAppender
 
-log4j.appender.A2.File=/volume1/TomcatRepo/logs/codeServer.txt
+#log4j.appender.A2.File=/volume1/TomcatRepo/logs/codeServer.txt
+log4j.appender.A2.File=D:/apache-tomcat-7.0.75/CodeServerLog/dailyLog.txt
 
 log4j.appender.A2.layout=org.apache.log4j.PatternLayout
 
@@ -16,7 +17,8 @@ log4j.appender.A2.Threshold = INFO
 
 log4j.appender.A3=org.apache.log4j.RollingFileAppender
 
-log4j.appender.A3.File=/volume1/TomcatRepo/logs/ErrorLog.txt
+#log4j.appender.A3.File=/volume1/TomcatRepo/logs/ErrorLog.txt
+log4j.appender.A3.File=D:/apache-tomcat-7.0.75/CodeServerLog/ErrorLog.txt
 
 log4j.appender.A3.layout=org.apache.log4j.PatternLayout
 

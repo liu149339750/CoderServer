@@ -7,7 +7,7 @@
 
     <session-factory>
         <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
-        <property name="connection.url">jdbc:mariadb://localhost:3306/codeServer</property>
+        <property name="connection.url">jdbc:mariadb://localhost:3305/codeserver</property>
         <property name="connection.username">liuwei</property>
         <property name="connection.password">coco5200</property>
         <property name="connection.driver_class">org.mariadb.jdbc.Driver</property>
